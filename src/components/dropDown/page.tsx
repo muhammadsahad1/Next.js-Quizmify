@@ -9,7 +9,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import userQuiz from "../../../store/page";
+import userQuiz from "../../store/page";
 import { Check, ChevronDown, Circle } from "lucide-react"
 
 type categoryType = {

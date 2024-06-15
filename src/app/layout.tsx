@@ -1,7 +1,7 @@
 "use client"
 import { Inter } from "next/font/google";
 import "./globals.css";
-import userQuiz from "../../store/page";
+import userQuiz from "../store/page";
 
 const inter = Inter({ subsets: ["latin"] });
 

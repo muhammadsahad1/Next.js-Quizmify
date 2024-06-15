@@ -1,6 +1,7 @@
 "use client"
 
-import userQuiz from "../../../store/page";
+import userQuiz from "@/store/page";
+import Link from "next/link";
 
 export default function Button() {
 

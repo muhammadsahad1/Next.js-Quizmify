@@ -2,8 +2,7 @@
 
 import Button from "@/components/Button/page";
 import DropDown from "@/components/dropDown/page";
-import userQuiz from "../../store/page";
-import { useState } from "react";
+import userQuiz from "@/store/page";
 import {useToaster} from "react-hot-toast";
 
 
