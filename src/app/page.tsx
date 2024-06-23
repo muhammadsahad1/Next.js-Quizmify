@@ -1,17 +1,15 @@
  "use client"
 
-import Button from "@/components/Button/page";
+import Button from "@/app/@quiz/button/page";
 import DropDown from "@/components/dropDown/page";
 import userQuiz from "@/store/page";
-import {useToaster} from "react-hot-toast";
+import Link from "next/link";
 
 
 export default function Home() {
 
   const quizConfig = userQuiz((state) => state.config)
   const addNumberOfQuestions = userQuiz(state => state.addNumberOfQuestions)
-
-  const { handlers } = useToaster()
 
   return (
     <div className="flex flex-col justify-center items-center my-10">
@@ -39,6 +37,7 @@ export default function Home() {
           />
         </div>
         <div className="flex-col justify-center items-center">
+      
           <DropDown />
           <Button />
         </div>

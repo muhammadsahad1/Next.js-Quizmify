@@ -10,8 +10,7 @@ export default function Trophy() {
       className="player"
       loop
       autoplay
-      style={{ height:'300px', width :'500px'}}
-    />
+      style={{ height:'300px', width :'500px'}}/>
     </div>
   )
 }

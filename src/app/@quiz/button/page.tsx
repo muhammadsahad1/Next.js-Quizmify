@@ -1,4 +1,4 @@
-"use client"
+  "use client"
 
 import userQuiz from "@/store/page";
 import Link from "next/link";
